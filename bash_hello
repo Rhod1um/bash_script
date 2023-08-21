@@ -1,0 +1,23 @@
+#!/bin/bash
+
+name=$1
+
+echo "hello ${name}"
+
+echo "hello $1"
+
+#husk /bin/bash for bash og /usr/bin/python3 for python
+
+#køre hello3 filen så den udskriver hello3:
+hello3
+
+#udskriv fra funktion:
+print (){
+	echo "hello ${name}"
+}
+
+mann (){
+	echo -e "hello [options] [arguments]\nman shows man page\nname gives argument name"
+}
+$1
+
